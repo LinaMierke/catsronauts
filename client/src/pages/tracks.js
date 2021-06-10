@@ -28,7 +28,7 @@ const Tracks = () => {
 
   return (
     <Layout grid>
-      {data?.tracksForHome?.map((track) => (
+      {data?tracksForHome?.map((track) => (
         <TrackCard key={track.id} track={track} />
       ))}
     </Layout>
